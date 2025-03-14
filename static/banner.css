@@ -1,0 +1,17 @@
+.banner{
+    background-color: #0a9e4f;
+    height: 175%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+} 
+
+.tituloBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}

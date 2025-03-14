@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{url_for('static',filename= 'estiloPersonal.css')}}">
+
+  <title>Personalcio</title>
+</head>
+
+<body>
+  {% include 'components/navbar.html'%}
+  {% include 'components/banner.html'%}
+  <div class="contenido">
+    <section id="textInicial">
+      <br>
+      <h3>Transforma tu idea en una web profesional</h3>
+      <br>
+      <p>Desarrollo páginas web personalizadas que potencian tu negocio en línea.</p>
+      <a href="https://wa.me/50238125015" class="cta">Solicita tu sitio web</a>
+    </section>
+    <div>
+      <br>
+      <img class="img-2"
+        src="https://www.qualitydevs.com/wp-content/uploads/2021/03/Desarrollo-apps-moviles-1288x724.jpg" alt="">
+    </div>
+  </div>
+  <br><br>
+  <div class="parrafo">
+    <section id="servicios">
+      <h2>Servicios de Desarrollo Web</h2>
+      <ul>
+        <li>🌐 <strong>Diseño y Desarrollo Web:</strong> Sitios modernos, responsivos y optimizados.</li>
+        <li>⚡ <strong>Optimización de Velocidad:</strong> Mejora el rendimiento y tiempos de carga.</li>
+        <li>🔍 <strong>SEO y Posicionamiento:</strong> Aumenta tu visibilidad en Google.</li>
+        <li>🛍️ <strong>Tiendas Online (E-commerce):</strong> Implementación con carrito de compras.</li>
+        <li>🔐 <strong>Seguridad Web:</strong> Protección contra ataques y optimización de datos.</li>
+      </ul>
+    </section>
+  </div>
+  <section id="testimonios">
+    <h3>Lo que dicen mis clientes</h3>
+
+    <blockquote>
+      “Gracias a Juan, mi tienda online ha duplicado sus ventas en 3 meses. 100% recomendado.”
+      <br>— Ana Rodríguez, dueña de TiendaX
+    </blockquote>
+
+    <blockquote>
+      “El sitio web que Raquel diseñó para mi consultoría luce increíble y ha mejorado la captación de clientes.”
+      <br>— Carlos Méndez, CEO de Consultores360
+    </blockquote>
+
+    <blockquote>
+      “Antes tenía muchos problemas con mi sistema de reservas, pero Raquel me ayudó a solucionarlo con una
+      plataforma eficiente.”
+      <br>— María López, fundadora de SpaRelax
+    </blockquote>
+
+    <blockquote>
+      “Increíble servicio y atención. El diseño web que recibí es profesional y moderno, justo lo que necesitaba.”
+      <br>— Daniel Pérez, fotógrafo freelance
+    </blockquote>
+  </section>
+</body>
+{% include 'components/footer.html'%}

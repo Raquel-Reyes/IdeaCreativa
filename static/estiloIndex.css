@@ -1,0 +1,73 @@
+/* Encabezados */
+h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 55px;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+h3 {
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+/* General */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Tarjetas */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Botones */
+.btn {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* Sección de equipo */
+.team-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.team-section h3 {
+    margin-bottom: 20px;
+}
