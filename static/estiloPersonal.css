@@ -1,4 +1,17 @@
-/* Encabezados */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
 h1 {
     margin: 0;
     text-align: center;
@@ -23,21 +36,6 @@ h3 {
     text-align: center;
 }
 
-/* General */
-body {
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: 'Arial', sans-serif;
-}
-
-/* Contenedor principal */
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
 
 /* Tarjetas */
 .card {
@@ -55,10 +53,22 @@ body {
     border-top-right-radius: 10px;
 }
 
-/* Botones */
 .btn {
-    border-radius: 5px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #18621D;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
     font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+    
+}
+.btn:hover {
+    background-color: #0f9316;
+    color: white;
 }
 
 

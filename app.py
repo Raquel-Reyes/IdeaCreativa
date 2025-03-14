@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 #Definir ruta padre
 @app.route("/")
-def home():
+def index():
     return render_template("index.html")
 
 #Crear otra ruta
